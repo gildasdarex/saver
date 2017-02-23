@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 0
+  url: http://first_url.com
+  contents: {h1: [h1_title1 h1_title2],
+             h2: [h2_title1 h2_title2],
+             h3: [h3_title1 h3_title2],
+             a:  [a_link1 a_link2]}
+
+two:
+  id: 1
+  url: http://second_url.com
+  contents: {h1: [h1_title1 h1_title2],
+             h2: [h2_title1 h2_title2],
+             h3: [h3_title1 h3_title2],
+             a:  [a_link1 a_link2]}

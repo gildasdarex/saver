@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - config/*
+    - config/**/*
+    - db/**/*.rb
+    - node_modules/**/*
+    - vendor/assets/bower_components/**/*
+
+  TargetRubyVersion: 2.3
+
+Metrics/LineLength:
+  Max: 120
+
+Rails:
+  Enabled: true
